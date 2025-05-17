@@ -8,10 +8,10 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Contáctanos</title>
-      <meta name="keywords" content="">
-      <meta name="description" content="">
-      <meta name="author" content="">
+      <title>Diego Rojas</title>
+      <meta name="keywords" content="Diego Rojas, Portfolio, Universidad de Cuenca">
+      <meta name="description" content="Página personal de Diego Rojas">
+      <meta name="author" content="Diego Rojas">
       <!-- bootstrap css -->
       <link rel="stylesheet" href="css/bootstrap.min.css">
       <!-- style css -->
@@ -59,6 +59,48 @@
 	.header_section {
 		background-color: rgb(20, 20, 20); /* Cambia este color según tu necesidad */
 	}
+	
+	/* Estilos para la sección de información personal */
+	.info-section {
+	    background-color: rgb(40, 40, 40);
+	    padding: 30px;
+	    border-radius: 10px;
+	    margin-bottom: 30px;
+	    color: white;
+	}
+	
+	.info-title {
+	    color: rgb(0, 212, 0);
+	    font-size: 24px;
+	    margin-bottom: 20px;
+	    border-bottom: 2px solid rgb(0, 212, 0);
+	    padding-bottom: 10px;
+	}
+	
+	.info-content {
+	    font-size: 18px;
+	    line-height: 1.6;
+	}
+	
+	.info-list {
+	    list-style-type: none;
+	    padding-left: 0;
+	}
+	
+	.info-list li {
+	    margin-bottom: 10px;
+	    padding-left: 20px;
+	    position: relative;
+	}
+	
+	.info-list li:before {
+	    content: "•";
+	    color: rgb(0, 212, 0);
+	    font-size: 20px;
+	    position: absolute;
+	    left: 0;
+	    top: -2px;
+	}
 	</style>
    <!-- body -->
    <body class="main-layout">
@@ -77,11 +119,10 @@
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
                             <a class="nav-item nav-link" href="index.html">Inicio</a>
-                            <a class="nav-item nav-link" href="shoes.html">Catálogo</a>
-                            <a class="nav-item nav-link" href="racing boots.html">GamaAlta</a>
-                            <a class="nav-item nav-link" href="contact.html">Contáctanos</a>
+                            <a class="nav-item nav-link" href="shoes.html">Sobre mí</a>
+                            <a class="nav-item nav-link" href="racing boots.html">Gustos</a>
+                            <a class="nav-item nav-link" href="contact.html">Contacto</a>
                             <a class="nav-item nav-link last" href="#"><img src="images/search_icon.png"></a>
-                            <a class="nav-item nav-link last" href="contact.html"><img src="images/shop_icon.png"></a>
                         </div>
                     </div>
                     </nav>
@@ -92,40 +133,43 @@
     <div class="layout_padding contact_section">
     	<div class="container">
             <body style="background-color: rgb(20, 20, 20);"></body> 
-    		<h1 class="new_text"><strong style="color: rgb(0, 212, 0);">Contáctanos Ahora</strong></h1>
+    		<h1 class="new_text"><strong style="color: rgb(0, 212, 0);">Diego Rojas</strong></h1>
     	</div>
     	<div class="container-fluid ram">
     		<div class="row">
     			<div class="col-md-6">
-    				<div class="email_box" style="background-color: rgb(40, 40, 40);"> 
-                    <div class="input_main">
-                       <div class="container">
-                          <form action="/action_page.php">
-                            <div class="form-group">
-                              <input type="text" class="email-bt" placeholder="Nombre" name="Name">
-                            </div>
-                            <div class="form-group">
-                              <input type="text" class="email-bt" placeholder="Número De Teléfono" name="Name">
-                            </div>
-                            <div class="form-group">
-                              <input type="text" class="email-bt" placeholder="Email" name="Email">
-                            </div>
-                            
-                            <div class="form-group">
-                                <textarea class="massage-bt" placeholder="Mensaje" rows="5" id="comment" name="Massage"></textarea>
-                            </div>
-                          </form>   
-                       </div> 
-                       <div class="send_btn">
-                        <button class="main_bt" style="background-color: rgb(20, 20, 20); color: rgb(0, 212, 0);">Enviar</button>
-                       </div>                   
+    				<div class="info-section">
+                        <h2 class="info-title">Información Personal</h2>
+                        <div class="info-content">
+                            <p><strong>Nombres:</strong> Diego Rojas</p>
+                            <p><strong>Educación:</strong> Universidad de Cuenca</p>
+                        </div>
+                        
+                        <h2 class="info-title" style="margin-top: 30px;">Preferencias</h2>
+                        <ul class="info-list">
+                            <li>Prefiero la noche que el día</li>
+                            <li>Prefiero lo salado antes que el dulce</li>
+                            <li>Prefiero lugares silenciosos</li>
+                        </ul>
                     </div>
-    		</div>
     			</div>
     			<div class="col-md-6">
-    				<div class="tienda"><img src="images/tienda.png" style="width: 720px; height: 380px;"> <button class="out_shop_bt"> Nuestra Tienda </button></div>
-    					</div>
-    				</div>
+    				<div class="info-section">
+                        <h2 class="info-title">Gustos e Intereses</h2>
+                        <ul class="info-list">
+                            <li>Me gustan los videojuegos</li>
+                            <li>Dibujar y pintar</li>
+                            <li>Me apasionan los autos</li>
+                            <li>Disfruto ver series</li>
+                            <li>Arte y diseño</li>
+                            <li>Tecnología e innovación</li>
+                        </ul>
+                        
+                        <h2 class="info-title" style="margin-top: 30px;">Sobre mí</h2>
+                        <div class="info-content">
+                            <p>Estudiante en la Universidad de Cuenca con diversos intereses que van desde el arte hasta la tecnología. Disfruto de actividades creativas como dibujar y pintar, así como de pasatiempos más técnicos relacionados con automóviles y videojuegos.</p>
+                        </div>
+                    </div>
     			</div>
     		</div>
     	</div>
@@ -161,28 +205,27 @@
 		        <div class="row">
     		        <div class="col-sm-4 col-lg-2">
     		        	<h2 class="shop_text">DIRECCIÓN</h2>
-    		        	<div class="image-icon"><img src="images/map-icon.png"><span class="pet_text">No 40 Baria Sreet 15/2 NewYork City, NY, United States.</span></div>
+    		        	<div class="image-icon"><img src="images/map-icon.png"><span class="pet_text">Cuenca, Ecuador</span></div>
     		        </div>
     		        <div class="col-sm-4 col-md-6 col-lg-3">
-    				    <h2 class="shop_text">NUESTRA COMPAÑIA </h2>
+    				    <h2 class="shop_text">INFORMACIÓN </h2>
     				    <div class="delivery_text">
     				    	<ul>
-    				    		<li>ENTREGAS</li>
-    				    		<li>NOTICIAS LEGALES</li>
-    				    		<li>ACERCA DE</li>
-    				    		<li>SEGURIDA DE PAGO</li>
-    				    		<li>CONTÁCTANOS</li>
+    				    		<li>EDUCACIÓN</li>
+    				    		<li>HABILIDADES</li>
+    				    		<li>PROYECTOS</li>
+    				    		<li>CONTACTO</li>
     				    	</ul>
     				    </div>
     		        </div>
     			<div class="col-sm-6 col-lg-3">
-    				<h2 class="adderess_text">DE NUESTROS PRODUCTOS</h2>
+    				<h2 class="adderess_text">INTERESES</h2>
     				<div class="delivery_text">
     				    	<ul>
-    				    		<li>DESCUENTOS</li>
-    				    		<li>NUEVOS PRODUCTOS</li>
-    				    		<li>MÁS VENDIDOS</li>
-    				    		<li>CONTÁCTANOS</li>
+    				    		<li>ARTE</li>
+    				    		<li>TECNOLOGÍA</li>
+    				    		<li>AUTOMÓVILES</li>
+    				    		<li>VIDEOJUEGOS</li>
     				    	</ul>
     				    </div>
     			</div>
@@ -192,7 +235,6 @@
     	</div>
     </div>
 	<!-- section footer end -->
-
 
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>
